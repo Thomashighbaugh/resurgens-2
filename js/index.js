@@ -1,14 +1,14 @@
-var bgColor;
-var effect = 'animated bounceInLeft'; /* bounceIn, bounceInUp, bounceInDown, bounceInLeft,
+let bgColor;
+let effect = 'animated bounceInLeft'; /* bounceIn, bounceInUp, bounceInDown, bounceInLeft,
 										 bounceInRight, rotateIn, rotateInUpLeft, rotateInDownLeft,
 										 rotateInUpRight, rotateInDownRight  */
-
+//hide the content of the back side of the cards
 $('.all-content').hide();
-
+//function to both change the display of the card to show the content contained
 $('.content li').click(function(){
 	$('.card-front, .card-back').hide();
 	$('.content li').removeClass('active').hide().css('border','none');
-	$(this).addClass('active').show();
+	$(this).addClass('active').show(); //shows card content
 	bgColor = $('.active .card-back').css('background-color');
 	$('.content').css('background-color',bgColor);
 	$('.close, .all-content').show();
