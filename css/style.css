@@ -1,3 +1,6 @@
+/*This is the sole CSS file needed for the Resurgens Portfolio Site V 2.0
+As with all CSS, general configuration is how we will begin, creating a desfault setting for the padding, border and margin
+As for the font, the Material variant of my favorite Roboto will be employed*/
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +14,7 @@
 html {
   line-height: 1;
 }
+/*Navigation Styling */
 .main-nav {
     margin-left: 2%;
     margin-top: 15px;
@@ -18,6 +22,7 @@ html {
     flex-basis: 90%;
     flex-direction: row;
 }
+
 .logo{
     color: #ffffff;
     font-size: 5em;
@@ -57,7 +62,7 @@ header ul {
 ol, ul {
   list-style: none;
 }
-
+/*Begins the styling of the rest of the site */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -92,14 +97,9 @@ body, html {
 body {
   background: #212121;
   color: #fff;
-  font-family: 'Oswald', sans-serif;
 }
 
-/**
-*
-* Responsive list
-*
-**/
+/* Responsive list portion width is shortened to enable the "framed" look of the site*/
 .responsive {
   width: 100%;
   height: 80%;
@@ -139,6 +139,8 @@ body {
   -ms-transform: rotateX(0deg);
   transform: rotateX(0deg);
 }
+/*In order to give each card its own background, each of the cards used had to be enumerated
+  chose a cool-tone colorscheme congruent with the "retrowave" aesthetic I use universally */
 .content li:nth-child(1) .card-back, .content li:nth-child(9) .card-back {
   background: #6b6b6b;
 }
@@ -191,13 +193,11 @@ body {
   z-index: 800;
 }
 .content h2 {
-  font-size: 28px;
+
   float: right;
   width: 100%;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  margin-right: 20px;
-  margin-top: 20px;
+    text-transform: uppercase;
+    margin: 20px 40px 10px;
 }
 .content h2 b {
   float: right;
@@ -206,9 +206,9 @@ body {
 .content p {
   line-height: 1.3em;
   color: #3d3d3d;
-  width: 90%;
-  float: right;
+  width: 60%;
   margin-right: 20px;
+    text-indent: 2em;
 }
 .Navigation{
     width:30% !important;
@@ -245,7 +245,8 @@ body {
   font-size: 80px;
   width: 50%;
 }
-
+/*Media queries begin here and viewport ranges are specified here as well.
+ The max width and max height cut off for the sake of creating the table  */
 @media (min-width: 440px) and (max-width: 750px) {
   .content h2 {
     font-size: 22px;
@@ -280,10 +281,10 @@ body {
   }
 }
 /**
-*
-* Animate.css
-* From : https://daneden.me/animate/
-*
+Credit for the following:
+ Animate.css
+ From : https://daneden.me/animate/
+
 **/
 .animated {
   -webkit-animation-fill-mode: both;
@@ -322,6 +323,7 @@ body {
     -webkit-transform: scale(1);
   }
 }
+
 @-moz-keyframes bounceIn {
   0% {
     opacity: 0;
