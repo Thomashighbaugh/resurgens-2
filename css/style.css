@@ -203,6 +203,24 @@ body {
   float: right;
   width: 55%;
 }
+.all-content ol li{
+    line-height: 1.3em;
+    color: #3d3d3d;
+    width: 40%;
+    margin-right: 20px;
+    text-indent: 2em;
+    float: right;
+}
+#skills-one{
+    text-indent: 0;
+    padding: 2%;
+}
+.skills-list{
+    font-weight: 900;
+    padding: 1%;
+    text-decoration-style: solid;
+    text-decoration-color: #1f2833;
+    color: #0052a5;}
 .content p {
   line-height: 1.3em;
   color: #3d3d3d;
