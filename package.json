@@ -1,0 +1,23 @@
+{
+  "name": "resurgens-2",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomashighbaugh/new-portfolio-site.git"
+  },
+  "author": "tlh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomashighbaugh/new-portfolio-site/issues"
+  },
+  "homepage": "https://github.com/Thomashighbaugh/new-portfolio-site#readme",
+  "description": "",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "js": "^0.1.0"
+  }
+}
