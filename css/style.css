@@ -110,9 +110,10 @@ body {
   padding: 2%;
 }
 .skills-list{
-  font-weight: 900;
+  font-weight: 700;
   padding: 1% !important;
-  width:75%;}
+  width:75%;
+  color: #ffffff;}
 
 .content {
   float: left;
@@ -252,16 +253,34 @@ body {
   font-size: 80px;
   width: 50%;
 }
-
+@media (min-width: 750px) and (max-width: 980px) {
+    .content h2 {
+        font-size: 22px;
+    }
+    .responsive li{
+        display: block;
+        min-width: 400px;
+    }
+    .content p {
+        font-size: 16px;
+    }
+    .content li {
+        width: 45%;
+    }
+}
 @media (min-width: 440px) and (max-width: 750px) {
   .content h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
+    .responsive li{
+        display: block;
+        min-width: 300px;
+    }
   .content p {
     font-size: 13px;
   }
   .content li {
-    width: 33.1%;
+    width: 45%;
   }
 }
 @media (max-width: 439px) {
@@ -271,20 +290,23 @@ body {
   .content p {
     font-size: 13px;
   }
-  .content li {
-    width: 33%;
-  }
+    .responsive li{
+        display: block;
+        min-width: 300px;
+    }
 }
 @media (max-height: 450px) {
   .content h2 {
-    font-size: 22px;
+    font-size: 14px;
   }
+    .responsive li{
+        display: block;
+        min-width: 200px;
+    }
   .content h2 b {
     width: 100%;
   }
-  .content li {
-    width: 33%;
-  }
+
 }
 /**
 *
