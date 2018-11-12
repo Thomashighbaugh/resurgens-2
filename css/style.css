@@ -105,7 +105,14 @@ body {
   height: 80%;
 }
 
-
+.skills-one{
+  text-indent: 0;
+  padding: 2%;
+}
+.skills-list{
+  font-weight: 900;
+  padding: 1% !important;
+  width:75%;}
 
 .content {
   float: left;
