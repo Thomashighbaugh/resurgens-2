@@ -1,5 +1,4 @@
-//This file is the ES06 used by the site. While ES05 would have worked just as well, using Let instead of Var is a minor
-//point and demonstrating knowledge of JS was the point so here is the product.
+
 
 let bgColor; //used for holding color of the card to be used as background!
 
