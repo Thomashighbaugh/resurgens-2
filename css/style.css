@@ -231,6 +231,10 @@ color:#ffffff !important}
     text-indent: 2em;
     display: inline-block;
 }
+
+.paddi {
+    padding: 3%;
+}
 .Navigation{
     width:30% !important;
     height:25% !important;
