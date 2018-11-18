@@ -157,16 +157,16 @@ body {
   background: #9a93ec;
 }
 .content li:nth-child(4) .card-back {
-  background: #0052a5;
+    background: #3d008b;
 }
 .content li:nth-child(5) .card-back {
-  background: #413bf7;
+    background: #663e99;
 }
 .content li:nth-child(6) .card-back {
-  background: #59dbf1;
+    background: #7f459a;
 }
 .content li:nth-child(7) .card-back {
-  background: #cab9f1;
+    background: #1e1157;
 }
 .content li:nth-child(8) .card-back {
   background: #653874;
