@@ -172,7 +172,7 @@ body {
   background: #653874;
 }
 .content li:first-child, .content li:last-child {
-  background-color: #151515;
+    background-color: #212121;
 }
 .content .card-front,
 .content .card-back {
@@ -217,6 +217,7 @@ body {
   width: 90%;
   float: right;
   margin-right: 20px;
+    background-color: #ffffff;
 }
 .Navigation{
     width:30% !important;
@@ -240,6 +241,9 @@ body {
   padding: 10px 20px;
 }
 
+.content h3 {
+    padding: 2%;
+}
 .active {
   width: 100% !important;
   height: 100% !important;
