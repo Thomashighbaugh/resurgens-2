@@ -17,7 +17,7 @@
   "homepage": "https://github.com/Thomashighbaugh/new-portfolio-site#readme",
   "description": "",
   "dependencies": {
-    "animate.css": "^3.7.0",
+    "animate.css": "^4.0.0",
     "js": "^0.1.0"
   }
 }

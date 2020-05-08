@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-animate.css@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-3.7.0.tgz#5de25d1ee5fba11ba6a1e2c4fa568f512eb7d4da"
-  integrity sha512-u3iMXDJr0cxMdQocIciDiou9Au4L5f9uT+/jCtprw3s1j3HcfCuI+khF+90Ps2KdsEhM2soF7SXB4WUvI3HlXg==
+animate.css@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-4.0.0.tgz#28b13e476cbb7cf936b2d71b07f46ca87e9a14b3"
+  integrity sha512-/BZp99OByWGftfTt2KoYcfER0k5jum82h16+ZIb3S6ghz1nMXIVCtwZYjgVAc+WNO5vHN/8+cypdhSP0maayiw==
 
 commander@~1.1.1:
   version "1.1.1"
